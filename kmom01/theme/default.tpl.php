@@ -11,7 +11,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
+        <link rel="shortcut icon" href="favicon.ico">
+        
         <link rel="stylesheet" href="theme/style.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <style>
@@ -32,7 +33,7 @@
   <!--     <a href="index.php">
        <img class="site-logo" src="img/phpmvc_icon_80x80.png" alt="logo" width="80" height="80" /> 
       </a> -->
-      <p class="site-title">phpmvc</p>
+      <p class="site-title"><a href="index.php">phpmvc</a></p>
       <p class="site-slogan">Att koda ett PHP-baserat och MVC-inspirerat ramverk</p>
     </div>
     <?=getHTMLForNavigation($navbar, "navbar")?>

@@ -39,6 +39,8 @@ header#above {
   padding-bottom: 10px;
 }
 
+.site-title a {text-decoration:none;}
+
 .site-slogan {
 	margin-left: 10px;
 	padding-left: 10px;
