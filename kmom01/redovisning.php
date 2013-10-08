@@ -19,7 +19,7 @@ förstod hur man skulle göra. Jag hoppas verkligen att mos hinner göra en mer
 skapade mitt git-repo som en clone av HTML5Boilerplate, kom jag på att jag
 skulle behöva olika mappar till kmom01, kmom02, osv. Och då blev det lite
 klurigt att skapa om min mappstruktur. Jag vet inte riktigt om jag gjorde det på
-bästa sätt, men nu iallafall finns filarna till min me-sida på github här:
+bästa sätt, men nu iallafall finns filarna till min me-sida på github här: 
 <a href="https://github.com/mikefrangos/phpmvc">https://github.com/mikefrangos/phpmvc</a>. </p>
 
 <p>Det tog även tid att förstå hur jag skulle göra med boilerplate. Jag kan inte säga att jag helt förstår allt som finns i H5BP men jag har nu läst genom det ganska mycket iallafall. Det som känns bäst med boilerplate är att det ger en känsla av trygghet att man skriver sin kod på en stabil grund. Jag kopierade mycket av instruktörens kod för att bygga min me-sida med PHP. Jag tyckte det var smart hur han använde PHP för att skicka sidans metadata och innehåll, osv, till template filarna, så jag gjorde samma sak i min kod. Och sen tog jag lite tid för att fresha upp min CSS-kunskap och skapade en enkel och ren stil för me-sidan. </p>
