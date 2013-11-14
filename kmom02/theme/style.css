@@ -1,0 +1,77 @@
+/** 
+ * My own style, based on HTML5Boilerplate standard style.
+ */
+@import url(../css/style.css);
+
+html {
+  overflow-y:scroll;
+}
+
+header#above {
+  font-family:arial,helvetica,sans-serif;
+  border-bottom:1px solid #E6E6E6;
+  margin-bottom:4px;
+  color:#000;
+  font-size:0.8em;
+}
+
+#header,
+#main,
+#footer {
+  margin:20px auto;
+  padding:1em;
+  width:740px;
+  border:1px solid #999;
+  border-radius: 10px;
+} 
+
+#header { padding-bottom:0; padding-top:0;}
+
+#banner {
+}
+
+.site-logo,
+.site-title,
+.site-slogan {
+  float: left;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.site-title a {text-decoration:none;}
+
+.site-slogan {
+	margin-left: 10px;
+	padding-left: 10px;
+	border-left: 1px solid #999;
+}
+
+#navbar {
+	clear: both;
+	border-top:1px solid #999;
+	overflow: auto;
+}
+
+#navbar a {
+	padding:10px;
+	border-right:1px solid #999;
+	text-decoration:none;
+	float:left;
+}
+
+#navbar a:hover
+{background:#999;}
+
+a,
+a:visited {
+  color:#A84C00;
+}
+
+#main {
+	padding-top:0;
+}
+
+h1 { text-transform:uppercase;
+}
+
