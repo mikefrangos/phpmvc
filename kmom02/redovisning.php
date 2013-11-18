@@ -10,6 +10,28 @@ $data['meta_description'] = "Alla redovisningstexter samlade på en sida.";
 $data['main'] = <<<EOD
 <h1>Redovisning</h1>
 
+<h2>Kmom02: Grunden till ett MVC-ramverk</h2>
+
+<p>Jag kände mig lite okreativ med namnet till ramverket så jag kallade det bara
+för MMVC (alltså, Mikes MVC) och bytte namnet av <code>&#36;ly</code> till
+<code>&#36;mm</code>. Jag kände att det krävde tillräckligt mycket att hänga med
+tutorialen som det var så jag gjorde inga avsteg. Men skulle jag ha gjort det
+tror jag att jag skulle ha skapat en egen mapp till controller-klassen eftersom
+det känns så rörigt att ha alla klass-filar i samma mapp. Man skulle gärna ha
+lite mer ordning, särskilt om man skapade en större app med många olika
+klass-filar. </p>
+
+<p>Jag behövde läsa igenom lektionen ett par gånger innan jag kände att jag faktiskt hängde med den. Det känns som nyckeln till grundstrukturen är först att använda URL:n att bestämma vilka klass, metod och argument ska åberopas. och sen att använda <code>autoload</code> för att hitta klass-filen i mappen. Sen använder man <code>reflectionclass</code> för att utvinna klassen från filen. Annars verkar det mest handla om stränghantering för att läsa URL:n och bekfräfta att klassen och metoden faktiskt  finns, samt att skapa länkar, osv. Och sen är theme-strukturen ganska liknande instruktörens boilerplate från sista momentet, så åtminstone var den delen lite enklare att förstå.</p>
+
+<p>Jag tittade snabbt genom den senaste versionen av Lydia men det blev lite överväldigande. Det verkade handla om att hantera olika undantags fall så att ramverket skulle vara så pålitligt och stabilt som möjligt. </p>
+
+<p>Även om själva tutorialen under momentet var lite svårt att hänga med, kan
+jag ändå säga att jag lyckades utnyttja möjligheten att vänja mig vid github.
+Jag följde instruktören och taggade denna version av ramverket till v0.1.1, och
+den finns på github här: <a href="https://github.com/mikefrangos/mmvc/tree/v0.1.1">https://github.com/mikefrangos/mmvc/tree/v0.1.1</a>. Själva
+ramverket kan testas här: <a href="http://www.student.bth.se/~mifb12/phpmvc/mmvc/tags/v0.1.1/">
+http://www.student.bth.se/~mifb12/phpmvc/mmvc/tags/v0.1.1/</a>.</p>
+
 <h2>Kmom01: En boilerplate</h2>
 
 <p>Jag måste säga att det var ganska svårt att komma igång med phpmvc-kursen!

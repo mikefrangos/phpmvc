@@ -10,9 +10,11 @@ $data['meta_description'] = "Resultatet från kmom02 blev basen till ett MVC-ram
 $data['main'] = <<<EOD
 <h1>Basen till MVC-ramverket</h1>
 
-<p>Här skriver man nåt vackert. Bara för att visa hur en tom sida kan se ut. 
-<a href="viewsource.php?dir=&file=empty.php#file">Kolla källkoden 
-för detaljer</a>.</p>
+<p>Här kan du hitta länken till mitt MVC-ramverk, som jag för nuvarande
+kallar för MMVC, alltså Mikes MVC. Denna version är taggad 
+som v0.1.1 och källkoden ligger på <a href="https://github.com/mikefrangos/mmvc/tree/v0.1.1">
+github</a>. Det går även att provköra denna version av ramverket på <a href="http://www.student.bth.se/~mifb12/phpmvc/mmvc/tags/v0.1.1/">
+http://www.student.bth.se/~mifb12/phpmvc/mmvc/tags/v0.1.1/</a>.</p>
 
 EOD;
 
